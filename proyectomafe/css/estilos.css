@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	list-style: none;
+	box-sizing: border-box;	
+}
+/*Header*/
+header{
+	max-width: 1000px;
+	width: 100%;
+	background-color: white;
+	max-height: 200px;
+	height: 100%;
+	margin: auto; 
+	display: flex;
+  justify-content: center;
+
+}
+
+#logo{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn-inicio{
+	width: 150px;
+	height: 50px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 300px;
+	text-align:center;
+	padding-top: 10px;
+	/*justify-content: flex-end;*/
+	border: 4px solid rgb(246, 165, 221);
+}
+
+.btn-inicio a{
+	text-decoration: none;
+	color: black;
+	margin: 10px 
+	justify-content: flex-end;
+	text-align:  center; 
+	font-weight: bold;
+
+}
+.btn-inicio a:hover{
+	color: black;
+	background-color: rgb(246, 165, 221);
+}
+
+.btn-inicio:hover{
+	background-color:rgb(246, 165, 221);
+
+}
+
+.btn-carro{
+	width: 150px;
+	height: 50px;
+	background-color: rgb(246, 165, 221);
+	color: black;
+	border-radius: 10px;
+	margin-top: 70px;
+    margin-left: 15px;
+	text-align:center;
+	padding-top: 10px;
+	/*justify-content: flex-end;*/
+}
+
+.btn-carro a{
+	text-decoration: none;
+	color: black;
+	margin: 10px 
+	justify-content: flex-end;
+	text-align:  center; 
+	font-weight: bold;
+
+}
+.btn-carro a: hover{
+	color: black;
+	border: 4px solid rgb(246, 165, 221);
+}
+
+.btn-carro: hover{
+	border: 4px solid rgb(246, 165, 221);
+
+}
+/*Fin Header*/
+
+/*Barra De Nav*/
+nav{
+	max-width: 1000px;
+	width: 100%;
+	background-color: #E89264;
+	max-height: 50px;
+	margin: auto;
+	border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu >li{
+	display: inline-block;
+	max-width: 200px;
+	width: 100%;
+	line-height: 50px;
+	text-align:center;
+	border-right: 1px solid #000000;
+	font-family: 'ZCOOL XiaoWei'
+}
+
+.menu li >a{
+	color: #000000;
+	text-decoration: none;
+}
+.menu li:hover{
+	border-top: 4px solid #FF00BF;
+}
+
+.submenu{
+	position: absolute; 
+	background-color:  #E89264;
+	color: #000000;
+	max-width: 200px;
+	width: 100%;
+	visibility: hidden;
+	border-radius: 7px;
+}
+
+
+.menu  li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 3s;
+	background: #E89264;
+	color: #000000;
+	
+}
+
+i{
+	 padding-right: 10px;
+}
+/*Fin Barra De Nav*/
+.body{
+	max-width: 1000px;
+	width: 100%;
+	background-color: #E89264;
+	max-height: 4000px;
+	height: 100%;
+	margin: auto; 
+}
+.container-slider{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    border-radius: 7px;
+
+}
+.slider-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+}
+.slider{
+	display: flex;
+	width: 400%;
+	height: 400px;
+	margin-left: 100%;
+}
+.slider-section{
+	width: 100%;
+}
+
+.slider-btn{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: rgba(255,255,255,0.7);
+	top: 50%;
+	transform: translateY(-50px);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+.slider-btn:hover{
+	background: #fff;
+
+
+}
+.slider--btn--right{
+	right: 10px;
+}
+.slider--btn--left{
+	left: 10px;
+}
+#body{
+	max-width: 1000px;
+	width: 100%;
+	background-color: #FCFDB5;
+	max-height: 5000px;
+	height: 100%;
+	margin: auto;	
+}
+.seccion1{
+	display: flex;
+}
+.tarjeta1{
+	margin-top: 30px;
+	margin-left: 28px;
+}
+.tarjeta2{
+	margin-top: 100px;
+	margin-left:40px;
+}
+
+.tarjeta3{
+	margin-top: 30px;
+	margin-left:40px;
+	margin-right: 25px;
+}
+
+.seccion2{
+	display: flex;
+}
+.tarjeta4{
+	margin-top: -150px;
+	margin-left: 28px;
+	margin-bottom: 80px;
+}
+.tarjeta5{
+	margin-top: 60px;
+	margin-left:40px;
+
+}
+
+.tarjeta6{
+	margin-top: -150px;
+	margin-left:40px;
+	margin-right: 25px;
+}
+
+.seccion3{
+	display: flex;
+}
+.tarjeta7{
+	margin-top: -130px;
+	margin-left: 28px;
+}
+.tarjeta8{
+	margin-top: 50px;
+	margin-left:40px;
+	margin-bottom: 35px;
+
+}
+
+.tarjeta9{
+	margin-top: -130px;
+	margin-left:40px;
+	margin-right: 25px;
+	
+}
+
+
+footer{
+	max-width: 1000px;
+	width: 100%;
+	background-color: #000000;
+	min-height: 40px;
+	height: 100%;
+	margin: auto;
+	color: white;
+	text-align: center;
+	padding-top: 23px;
+}
+#servicios{
+	max-width: 978px;
+	width: 100%;
+	background-color: #FCFDB5;
+	max-height: 5000px;
+	height: 100%;
+	margin: auto;	
+}
+
+.footer{
+	background-image: url(../imagen/bombones2.jpg);
+}
+.footer h5{ color: white;
+	text-align: center;
+
+}
+.bi-suit-heart-fill{
+	align-content: center;
+}
+.footer ul{
+	list-style: none;
+	text-align: center;
+}	
+
+.bi-instagram{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ .bi-facebook{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ .bi-geo-alt{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.s1{
+	background-color: rgba(163, 73, 164, 0.5);
+	color: white;
+	margin-top:  15px auto;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+#titulo-principal{
+	margin-left:  50px;
+	margin-top: 80px;
+}
+#subtitulo{
+	margin-left: 50px;
+ 
+}
+.botones{
+	width: 200px;
+	height: 50px;
+	background-color: #FF00BF;
+	color: white;
+	border-radius: 10px;
+	margin-right: 10px;
+	text-align:center;
+	padding-top: 10px;
+	justify-content: flex-end;
+}
+
+.botones a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 
+	justify-content: flex-end;
+	text-align:  center; 
+	font-weight: bold;
+
+}
+
+.botones a:hover{
+	color: white;
+	background-color: #FF7CDE;
+}
+
+.botones:hover{
+	background-color: #FF7CDE;
+
+}
+
+
+
